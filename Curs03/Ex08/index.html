@@ -1,18 +1,27 @@
-
-
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>Reset form</title>
+  <title>Textarea</title>
 </head>
+
 <body>
   <form>
     <label for="name">Nume</label>
-    <input type="text" id="name" name="name" value="Dragos">
-    
+    <input type="text" id="name" name="name" minlength="5" maxlenght="30" required>
+    <br>
+    <label for="surnname">surname</label>
+    <input type="text" name="surname" id="surname" minlength="5" maxlenght="30" required>
+    <br>
+
+    <textarea name="message" cols="30" rows="4" required placeholder="tellUswhathappen"></textarea>
+    <br>
+    <textarea name="details" cols="30" rows="8" placeholder="addAstory"></textarea>
+
+    <button type="submit">Tell your story</button>
 
 
-    
   </form>
 </body>
+
 </html>
