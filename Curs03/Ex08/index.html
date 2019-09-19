@@ -8,11 +8,35 @@
 <body>
   <form>
     <label for="name">Nume</label>
-    <input type="text" id="name" name="name" value="Dragos">
+    <input type="text" id="name" name="name" value="Dragos"><br>
+    <label for="surname">Prenume</label>
+    <input type="text" id="surname" name="surname" value="Iordache"><br>
     
-
-
+    <button type="submit">Send</button>
+    <button type="reset">Reset Nativ</button>
+    <button type="button" id="reset">Full Reset</button>
+    <button type="button" id="display">Display Fullname</button>
     
   </form>
+
+  <script>
+    var resetButton = document.getElementById('reset'),
+      displayButton = document.getElementById('display'),
+      nameField = document.getElementById('name'),
+      surnameField = document.getElementById('surname');
+
+    resetButton.addEventListener('click', function() {
+      nameField.value = '';
+      surnameField.value = '';
+    });
+
+    displayButton.addEventListener('click', function() {
+      var name = nameField.value, 
+        surname = surnameField.value;
+      
+      alert(`${name} ${surname}`);
+    }); 
+    
+  </script>
 </body>
 </html>
