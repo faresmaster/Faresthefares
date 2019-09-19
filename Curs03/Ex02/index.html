@@ -5,11 +5,34 @@
 </head>
 <body>
 
-  <form>
-      
+  <form novalidate>
+    <input name="name" placeholder="Nume" required><br>
+    <input name="surname" placeholder="Prenume" required><br>
+    <input name="email" type="email" placeholder="email@email.com" required><br>
+    <input name="phone" type="tel" placeholder="Telefon" required> <br><br>
+
+    <input name="password" type="password" id="parola" value="ParolaMea!">
+    <button id="test">Show Password</button>
+
     <button type="submit">Trimite</button>
   </form>
 
+  <script>
+    
+    var btn = document.getElementById('test');
+    
+    var field = document.getElementById('parola');
+
+    btn.addEventListener('click', function(e) {
+      e.preventDefault();
+      if (field.type === 'password') {
+        field.type = 'text';
+      } else {
+        field.type = 'password';
+      }
+    });
+  
+  </script>
 </body>
 </html>
 
