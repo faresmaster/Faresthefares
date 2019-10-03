@@ -1,33 +1,11 @@
-a{ 
-  
+a {
   color: green;
 }
 
-i{
-color: red;
+i {
+  color: red;
 }
 
-.line
- {
-text-decoration: underline;
-}
-
-a {
-  text-decoration: none;
-}
-
-p .line{
-  color: blue;
-}
-
-b { 
-  color: purple;
-}
-
-.odd .line {
-  color: blue;
-}
-
-.odd i {
+.line {
   text-decoration: underline;
 }
