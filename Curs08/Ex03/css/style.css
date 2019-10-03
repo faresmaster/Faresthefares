@@ -1,1 +1,10 @@
+.my-div {
+  width: 500px;
+  height: 102px;
 
+  background-color: red;
+  border: 1px solid green;
+  
+  margin-right: auto; 
+  margin-left: auto;
+}
