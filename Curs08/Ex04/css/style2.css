@@ -1,6 +1,6 @@
 body {
   padding:8px;
-  padding-bottom: 60px;
+  padding-top: 60px;
 }
 
 .container {
@@ -8,42 +8,41 @@ body {
   padding: 5px;
   position: relative;
 }
-
 .abs-nav {
-position:absolute;
-background: #000;
-color: white;
-top: 0;
-right: 0;
+  position:absolute;
+  background: blue;
+  color: brown;
+  bottom: 0;
+  right: 0;
 }
 
-.abs-nav a {
-  color: white;
+.abs-nav a{
+  color: brown;
 }
 
 .legend {
   position: absolute;
   top: -10px;
   left:25px;
-background-color: white;
-border: 1px solid black;
+background-color: grey;
+border: 1px solid red;
 padding-right: 3px;
 padding-left: 3px;
 }
 
-.formula-sub{
+.formula-sub {
   font-size: 10px;
   position: relative;
-  bottom: -5px;
+  top: -5px;
 }
+
 .sticky-nav {
   background-color:green;
   position:fixed;
-  bottom: 0;
+  top: 0;
   left: 0;
   padding-right: 25px;
 }
-
 .sticky-nav ul {
   list-style-type: none;
 }
