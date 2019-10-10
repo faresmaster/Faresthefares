@@ -21,3 +21,13 @@
   border: 1px solid red;
 }
 
+
+.stage-01 {
+  justify-content: center;
+  align-items: center;
+}
+
+.stage-02 {
+  justify-content: center;
+  align-items: flex-end;
+}

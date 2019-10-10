@@ -6,14 +6,26 @@
 
 .box-red {
   background-color: red;
+  transition: width 3s ease-in;
+}
+
+.box-red:hover {
+  width: 120px;
 }
 
 .box-green {
   background-color: green;
+  transition: transform 5s ease;
+}
+
+.box-green:hover {
+  transform: rotate(360deg) scale(1.2);
 }
 
 .box-purple {
   background-color: purple;
+  transition: width 5s ease, 
+    height 5s ease;
 }
 
 .box-brown {
