@@ -399,6 +399,26 @@ body {
   color: #707070;
 }
 
+.container {
+  width: 1280px; 
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  margin-bottom: 10px;
+}
+
+.logo {
+  text-align: center;
+}
+
+.nav-main {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 10px 0;
+}
+
 .nav-main li {
   display: inline-block;
   margin: 0 5px;
@@ -409,11 +429,36 @@ body {
   padding: 10px;
   display: block;
   border-radius: 27px;
+  font-size: 20px;
 }
 
-.nav-main a:hover {
+.nav-main a:hover,
+.nav-main a.active {
   background-color: #FF6B6B;
   color: #fff;
+}
+
+.nav-secondary {
+  text-align: center;
+}
+
+.nav-secondary ul {
+  display: inline-block;
+}
+
+.nav-secondary li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.nav-secondary a {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.nav-secondary a:hover,
+.nav-secondary a.active {
+  color: #FF6B6B;
 }
 
 
