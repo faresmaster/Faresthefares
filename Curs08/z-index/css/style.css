@@ -1,0 +1,40 @@
+.stage {
+  border: 3px solid red; 
+  width: 200px; 
+  height: 200px;
+  float: left;
+
+  position: relative; 
+}
+
+.stage-01 {
+  z-index: 3;
+}
+
+.stage-02 {
+  z-index: 5;
+  left: -100px;
+  border-color: blue;
+}
+
+
+.inner {
+  position: absolute;
+  width: 15px; 
+  height: 15px; 
+
+}
+
+.inner-01 {
+  background: greenyellow;
+  right: 0;
+
+  z-index: 2;
+}
+
+.inner-02 {
+  background: violet;
+  left: 80px;
+
+  z-index: 500;
+}

@@ -1,0 +1,13 @@
+h1 {
+  color: red;
+  text-decoration: underline;
+}
+
+p {
+  color: gray;
+}
+
+ol a {
+  color: green;
+  text-decoration: solid line-through  blue;
+}

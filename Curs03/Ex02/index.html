@@ -5,6 +5,7 @@
 </head>
 <body>
 
+<<<<<<< HEAD
   <form>
       <input name="Name" placeholder="Name" required> <br> 
       <input name="Surname" placeholder="Surname" required> <br>
@@ -13,8 +14,36 @@
       <input name="phone" type="phone" placeholder="phone number" required> <br>
 
       <button type="submit"> send</button>
+=======
+  <form novalidate>
+    <input name="name" placeholder="Nume" required><br>
+    <input name="surname" placeholder="Prenume" required><br>
+    <input name="email" type="email" placeholder="email@email.com" required><br>
+    <input name="phone" type="tel" placeholder="Telefon" required> <br><br>
+
+    <input name="password" type="password" id="parola" value="ParolaMea!">
+    <button id="test">Show Password</button>
+
+    <button type="submit">Trimite</button>
+>>>>>>> fca7531297cc320a065a3000a9b6686a00d45252
   </form>
 
+  <script>
+    
+    var btn = document.getElementById('test');
+    
+    var field = document.getElementById('parola');
+
+    btn.addEventListener('click', function(e) {
+      e.preventDefault();
+      if (field.type === 'password') {
+        field.type = 'text';
+      } else {
+        field.type = 'password';
+      }
+    });
+  
+  </script>
 </body>
 </html>
 

@@ -8,6 +8,7 @@
 <body>
   <form>
     <label for="name">Nume</label>
+<<<<<<< HEAD
     <input type="text" id="name" name="name" minlength="5" maxlenght="30" required>
     <br>
     <label for="surnname">surname</label>
@@ -19,9 +20,42 @@
     <textarea name="details" cols="30" rows="8" placeholder="addAstory"></textarea>
 
     <button type="submit">Tell your story</button>
-
-
+=======
+    <input type="text" id="name" name="name" value="Dragos"><br>
+    <label for="surname">Prenume</label>
+    <input type="text" id="surname" name="surname" value="Iordache"><br>
+    
+    <button type="submit">Send</button>
+    <button type="reset">Reset Nativ</button>
+    <button type="button" id="reset">Full Reset</button>
+    <button type="button" id="display">Display Fullname</button>
+    
   </form>
+>>>>>>> fca7531297cc320a065a3000a9b6686a00d45252
+
+  <script>
+    var resetButton = document.getElementById('reset'),
+      displayButton = document.getElementById('display'),
+      nameField = document.getElementById('name'),
+      surnameField = document.getElementById('surname');
+
+<<<<<<< HEAD
+  </form>
+=======
+    resetButton.addEventListener('click', function() {
+      nameField.value = '';
+      surnameField.value = '';
+    });
+
+    displayButton.addEventListener('click', function() {
+      var name = nameField.value, 
+        surname = surnameField.value;
+      
+      alert(`${name} ${surname}`);
+    }); 
+    
+  </script>
+>>>>>>> fca7531297cc320a065a3000a9b6686a00d45252
 </body>
 
 </html>
