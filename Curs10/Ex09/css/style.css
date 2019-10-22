@@ -1,5 +1,16 @@
 /* add code here */
+#container .header h1 {
+  color: green;
+  text-decoration: underline; 
+  padding: 5px;
+}
 
+#container p.para {
+  font-size: 25px; 
+  font-style: italic;
+  color: purple;
+  text-decoration: none;
+}
 
 
 /* add code here */
@@ -13,11 +24,12 @@ h1 {
   color: blue;
 }
 
+.para {
+  text-decoration: line-through; 
+  color: blueviolet
+}
+
 p {
   text-decoration: underline;
 }
 
-.para {
-  text-decoration: none; 
-  color: blueviolet
-}
