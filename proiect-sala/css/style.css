@@ -416,4 +416,29 @@ body {
   color: #fff;
 }
 
+.content-header{
+  margin: 50px 0 0 0;
+}
+
+.filter-form{
+  display:flex;
+  justify-content: space-between;
+}
+
+.filter-swatches li{
+  display: inline-block;
+}
+
+.filter-fit-finder a {
+  display: inline-block;
+  padding-left:30px;
+  line-height: 25px;
+  background: url('../images/decorations/fit-finder.jpg') no-repeat left center;
+}
+
+.filter-fit-finder span {
+  font-family: 'robotobold';
+  color: #FF6B6B; 
+}
+
 
