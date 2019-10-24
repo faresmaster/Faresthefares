@@ -595,6 +595,7 @@ body {
 
 .product-tile {
   flex-basis: 30%;
+  margin-bottom: 25px;
 }
 
 .product-main {
@@ -626,3 +627,143 @@ body {
   width: 100%;
 }
 
+.product-details {
+  text-align: center;
+}
+
+.product-title {
+  font-weight: lighter;
+  margin-bottom: 5px;
+}
+
+.product-title span:nth-of-type(1) {
+  color: #000;
+}
+
+.product-title span {
+  font-family: 'robotobold';
+}
+
+.product-subtitle {
+  margin: 5px 0;
+  font-weight: lighter;
+}
+
+.product-pricing p {
+  margin: 0;
+}
+
+.product-pricing p:nth-of-type(1) {
+  text-decoration: line-through;
+  font-size: 12px;
+}
+
+.product-pricing p:nth-of-type(2) {
+  font-size: 18px;
+}
+
+.product-pricing p:nth-of-type(2) span {
+  color: #FF6B6B;
+  font-family: 'robotobold';
+}
+
+.product-controls {
+  margin-top: 15px;
+}
+
+.add-to-cart {
+  text-transform: uppercase;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 27px;
+  font-size: 15px;
+  background-color: #FF6B6B;
+  color: #fff;  
+}
+
+.payment {
+  margin-top: 40px;
+}
+
+.payment-header {
+  font-weight: lighter;
+  text-align: center;
+}
+
+.payment-header span {
+  text-transform: capitalize;
+  font-family: 'robotobold';
+}
+
+.payment-list {
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+  width: 350px;  
+}
+
+.payment-list li {
+  margin: 5px;
+}
+
+.footer-top {
+  min-height: 320px;
+  padding-top: 40px;
+  background: url('../images/banners/2q12iv2u.jpg') #1B1927 no-repeat top right;
+}
+
+.footer-top ul a,
+.footer-top nav h5 {
+  color: #AEAEAE;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.footer-top nav h5 {
+  margin: 0;
+  font-weight: normal;
+}
+
+.footer-top nav {
+  float: left;
+  margin-left: 60px;
+}
+
+.customer-support {
+  clear: both;
+  margin-top: 60px;
+}
+
+.customer-support li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.store-contact {
+  float: left;
+  width: 285px;
+  color: #AEAEAE;
+  margin-left: 117px;
+}
+
+.store-contact a[href^="tel"] {
+  color: #AEAEAE;
+  font-size: 14px;
+}
+
+.store-contact p {
+  margin: 0;
+}
+
+.store-contact h5 {
+  margin-bottom: 15px;
+}
+
+.store-contact a[href^="mailto"] {
+  color: #FF6B6B;
+}
+
+.footer-bottom p {
+  text-align: center;
+}
