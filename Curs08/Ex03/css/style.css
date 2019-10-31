@@ -1,5 +1,6 @@
 .my-div {
 <<<<<<< HEAD
+<<<<<<< HEAD
   width:500px;
   height:102px;
 
@@ -89,8 +90,18 @@
 
   background-color: red;
   border: 1px solid green;
+=======
+  width: 500px;
+  height: 102px;
+
+  background-color: red;
+  border: 1px solid green;
+>>>>>>> afa17e17de4d5dc53def8eb4defbebe15f1430d0
   
   margin-right: auto; 
   margin-left: auto;
 }
+<<<<<<< HEAD
 >>>>>>> fca7531297cc320a065a3000a9b6686a00d45252
+=======
+>>>>>>> afa17e17de4d5dc53def8eb4defbebe15f1430d0

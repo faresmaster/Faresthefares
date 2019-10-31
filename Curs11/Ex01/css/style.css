@@ -33,13 +33,18 @@ body>h2 {
 
 .box-4 {
   background-color: purple;
+  color: red;
 }
 
 .box-5 {
   background-color: lightpink;
 }
 
+body > h1 {
+  display: none;
+}
 
+<<<<<<< HEAD
 @media (max-width: 576px) {
  .box-2 {
    display:none;
@@ -66,11 +71,29 @@ body>h2 {
   body {
     padding: 15px;
   }
+=======
+
+@media (max-width: 576px) {
+  .box-2 {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .box-3 {
+    border: 5px solid green;
+  }
+
+  .box-5 {
+    color: white;
+  }
+>>>>>>> afa17e17de4d5dc53def8eb4defbebe15f1430d0
 }
 
 
 
 @media (max-width: 992px) {
+<<<<<<< HEAD
   .box-3{
   display:none;
    }
@@ -100,4 +123,26 @@ body>h2 {
 
 
 
+=======
+  .box-3 {
+    display: none;
+  }
+
+  .box-4 {
+    color: black;
+  }
+}
+
+@media (max-width: 1200px) {
+  .box-5 {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+ body > h1 {
+   display: block;
+ }
+}
+>>>>>>> afa17e17de4d5dc53def8eb4defbebe15f1430d0
 

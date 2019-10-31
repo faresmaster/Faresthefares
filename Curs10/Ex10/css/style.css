@@ -20,6 +20,7 @@ ul {
 
 .para-short {
   width: 50%;
+<<<<<<< HEAD
   margin:10px auto;
   border:1px solid black;
   padding:15px;
@@ -28,5 +29,15 @@ ul {
 .para-short p {
   border:1px solid red;
   width:inherit;
+=======
+  margin: 10px auto;
+  border: 1px solid black; 
+  padding: 15px;
+}
+
+.para-short p {
+  width: inherit;
+  border: 1px solid red; 
+>>>>>>> afa17e17de4d5dc53def8eb4defbebe15f1430d0
   margin: 0 auto;
 }

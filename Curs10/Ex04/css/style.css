@@ -1,4 +1,8 @@
+p b {
+  color: purple;
+}
 
+<<<<<<< HEAD
 p b{
   color: purple;
 }
@@ -87,6 +91,8 @@ p b {
   color: purple;
 }
 
+=======
+>>>>>>> afa17e17de4d5dc53def8eb4defbebe15f1430d0
 ul i {
   text-decoration: underline;
 }

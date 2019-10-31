@@ -1,5 +1,14 @@
+<<<<<<< HEAD
 .container{
   .header{
     color:red;
+=======
+// variables
+$main: red;
+
+.container {
+  .header {
+    color: $main;
+>>>>>>> afa17e17de4d5dc53def8eb4defbebe15f1430d0
   }
 }

@@ -539,18 +539,32 @@ body {
   width: 50px;
   height: 50px;
   display: inline-block;
+<<<<<<< HEAD
   border-radius: 40px;
+=======
+  
+>>>>>>> afa17e17de4d5dc53def8eb4defbebe15f1430d0
   overflow: hidden;
   text-indent: -10000px;
   display: flex;
   justify-content: center;
   align-items: center;
 
+<<<<<<< HEAD
 }
 
 .swatch.active {
   border: 1px solid #8b8b8b;
 }
+=======
+  border-radius: 40px;
+}
+
+.swatch.active {    
+  border: 1px solid #8b8b8b;
+}
+
+>>>>>>> afa17e17de4d5dc53def8eb4defbebe15f1430d0
 .swatch::after {
   content: " ";
 
@@ -576,7 +590,11 @@ body {
 }
 
 .content-main h1 span {
+<<<<<<< HEAD
   text-align: center;
+=======
+  font-family: 'robotobold';
+>>>>>>> afa17e17de4d5dc53def8eb4defbebe15f1430d0
 }
 
 .content-main header p {
@@ -585,6 +603,10 @@ body {
 
 .product-list {
   margin-top: 40px;
+<<<<<<< HEAD
+=======
+  
+>>>>>>> afa17e17de4d5dc53def8eb4defbebe15f1430d0
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -601,6 +623,7 @@ body {
 
 .product-badge {
   width: 60px;
+<<<<<<< HEAD
   height: 60px;
   border-radius: 50px;
   background-color: #FF6B6B;
@@ -611,6 +634,18 @@ body {
   text-align: center;
 
   display: flex;
+=======
+  height: 60px; 
+  border-radius: 50px;
+  background-color: #FF6B6B;
+
+  color: #FFF; 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  text-align: center;
+
+>>>>>>> afa17e17de4d5dc53def8eb4defbebe15f1430d0
   position: absolute;
   top: 20px;
   right: 20px;
@@ -631,6 +666,7 @@ body {
 .product-title {
   font-weight: lighter;
   margin-bottom: 5px;
+<<<<<<< HEAD
 
 }
 
@@ -642,6 +678,18 @@ body {
   font-family: 'robotobold';
 }
   
+=======
+}
+
+.product-title span:nth-of-type(1) {
+  color: #000;
+}
+
+.product-title span {
+  font-family: 'robotobold';
+}
+
+>>>>>>> afa17e17de4d5dc53def8eb4defbebe15f1430d0
 .product-subtitle {
   margin: 5px 0;
   font-weight: lighter;
@@ -657,7 +705,11 @@ body {
 }
 
 .product-pricing p:nth-of-type(2) {
+<<<<<<< HEAD
 font-size:18px;
+=======
+  font-size: 18px;
+>>>>>>> afa17e17de4d5dc53def8eb4defbebe15f1430d0
 }
 
 .product-pricing p:nth-of-type(2) span {
@@ -666,6 +718,7 @@ font-size:18px;
 }
 
 .product-controls {
+<<<<<<< HEAD
   margin-top:15px
 }
 
@@ -684,6 +737,23 @@ font-size:18px;
 
 .payment {
   margin-top: 40px 0 0 0;
+=======
+  margin-top: 15px;
+}
+
+.add-to-cart {
+  text-transform: uppercase;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 27px;
+  font-size: 15px;
+  background-color: #FF6B6B;
+  color: #fff;  
+}
+
+.payment {
+  margin-top: 40px;
+>>>>>>> afa17e17de4d5dc53def8eb4defbebe15f1430d0
 }
 
 .payment-header {
@@ -697,11 +767,19 @@ font-size:18px;
 }
 
 .payment-list {
+<<<<<<< HEAD
   margin-top: 40px auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   width: 350px;
+=======
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+  width: 350px;  
+>>>>>>> afa17e17de4d5dc53def8eb4defbebe15f1430d0
 }
 
 .payment-list li {
@@ -714,13 +792,19 @@ font-size:18px;
   background: url('../images/banners/2q12iv2u.jpg') #1B1927 no-repeat top right;
 }
 
+<<<<<<< HEAD
 .footer-top ul a, 
 .footer-top ul nav h5 {
+=======
+.footer-top ul a,
+.footer-top nav h5 {
+>>>>>>> afa17e17de4d5dc53def8eb4defbebe15f1430d0
   color: #AEAEAE;
   text-transform: uppercase;
   font-size: 12px;
 }
 
+<<<<<<< HEAD
 .footer-top ul nav h5 {
   margin: 0; 
   font-weight: 'normal';
@@ -728,15 +812,32 @@ font-size:18px;
 
 .footer-top nav{
   float:left;
+=======
+.footer-top nav h5 {
+  margin: 0;
+  font-weight: normal;
+}
+
+.footer-top nav {
+  float: left;
+>>>>>>> afa17e17de4d5dc53def8eb4defbebe15f1430d0
   margin-left: 60px;
 }
 
 .customer-support {
+<<<<<<< HEAD
   clear:both;
   margin-top: 60px;
 }
 
 .customer-support ul li {
+=======
+  clear: both;
+  margin-top: 60px;
+}
+
+.customer-support li {
+>>>>>>> afa17e17de4d5dc53def8eb4defbebe15f1430d0
   display: inline-block;
   margin-right: 20px;
 }
@@ -754,7 +855,11 @@ font-size:18px;
 }
 
 .store-contact p {
+<<<<<<< HEAD
   margin:0
+=======
+  margin: 0;
+>>>>>>> afa17e17de4d5dc53def8eb4defbebe15f1430d0
 }
 
 .store-contact h5 {

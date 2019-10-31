@@ -1,12 +1,16 @@
+<<<<<<< HEAD
 
 .pane-short .container {
   padding: 15px 8px 15px 4px;
 }
 
+=======
+>>>>>>> afa17e17de4d5dc53def8eb4defbebe15f1430d0
 .pane-short .heading {
   margin: 12px 0 12px 5px;
 }
 
+<<<<<<< HEAD
 
 .pane-short .para {
   padding: 10px;
@@ -48,3 +52,9 @@ ul, .li {
 .pane-short .container {
   padding: 15px 8px 15px 4px;
 }
+=======
+.pane-short .container {
+  padding: 15px 8px 15px 4px;
+}
+
+>>>>>>> afa17e17de4d5dc53def8eb4defbebe15f1430d0

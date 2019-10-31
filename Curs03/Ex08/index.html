@@ -9,6 +9,7 @@
   <form>
     <label for="name">Nume</label>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <input type="text" id="name" name="name" minlength="5" maxlenght="30" required>
     <br>
     <label for="surnname">surname</label>
@@ -56,6 +57,38 @@
     
   </script>
 >>>>>>> fca7531297cc320a065a3000a9b6686a00d45252
+=======
+    <input type="text" id="name" name="name" value="Dragos"><br>
+    <label for="surname">Prenume</label>
+    <input type="text" id="surname" name="surname" value="Iordache"><br>
+    
+    <button type="submit">Send</button>
+    <button type="reset">Reset Nativ</button>
+    <button type="button" id="reset">Full Reset</button>
+    <button type="button" id="display">Display Fullname</button>
+    
+  </form>
+
+  <script>
+    var resetButton = document.getElementById('reset'),
+      displayButton = document.getElementById('display'),
+      nameField = document.getElementById('name'),
+      surnameField = document.getElementById('surname');
+
+    resetButton.addEventListener('click', function() {
+      nameField.value = '';
+      surnameField.value = '';
+    });
+
+    displayButton.addEventListener('click', function() {
+      var name = nameField.value, 
+        surname = surnameField.value;
+      
+      alert(`${name} ${surname}`);
+    }); 
+    
+  </script>
+>>>>>>> afa17e17de4d5dc53def8eb4defbebe15f1430d0
 </body>
 
 </html>
